@@ -1,0 +1,32 @@
+{
+  "node_choices": {
+    "0": {
+      "type": "ROOT",
+      "val": "ROOT"
+    },
+    "1": {
+      "type": "SN",
+      "val": "SELECT"
+    },
+    "2": {
+      "type": "NN",
+      "val": "title"
+    },
+    "3": {
+      "type": "UNKNOW",
+      "val": "meaningless"
+    },
+    "4": {
+      "type": "UNKNOW",
+      "val": "meaningless"
+    },
+    "5": {
+      "type": "ON",
+      "val": ">"
+    },
+    "6": {
+      "type": "VN",
+      "val": "article.year"
+    }
+  }
+}
