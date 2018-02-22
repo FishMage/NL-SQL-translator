@@ -52,6 +52,7 @@ function generate(){
     else
          input = document.getElementById("textBox").value;
     showProgress();
+    return;
     $.ajax({
 
         type: "POST",
@@ -95,7 +96,7 @@ function generate(){
         },
         failure: function(errMsg) {
             hideProgress();
-            
+
             alert(errMsg);
         }
     });
