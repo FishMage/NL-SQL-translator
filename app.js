@@ -95,6 +95,7 @@ function generate(){
         },
         failure: function(errMsg) {
             hideProgress();
+            
             alert(errMsg);
         }
     });
