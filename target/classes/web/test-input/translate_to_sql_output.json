@@ -1,3 +1,0 @@
-{
-  "sql": "SELECT article.title\n FROM article\n WHERE article.year \u003e 1970\n"
-}
