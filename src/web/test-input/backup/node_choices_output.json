@@ -1,0 +1,110 @@
+{
+  "node_choices": {
+    "0": [
+      {
+        "type": "ROOT",
+        "val": "ROOT"
+      }
+    ],
+    "1": [
+      {
+        "type": "SN",
+        "val": "SELECT"
+      }
+    ],
+    "2": [
+      {
+        "type": "NN",
+        "val": "title"
+      },
+      {
+        "type": "VN",
+        "val": "article.title"
+      },
+      {
+        "type": "UNKNOW",
+        "val": "meaningless"
+      },
+      {
+        "type": "VN",
+        "val": "article.journal"
+      },
+      {
+        "type": "VN",
+        "val": "inproceedings.booktitle"
+      }
+    ],
+    "3": [
+      {
+        "type": "UNKNOW",
+        "val": "meaningless"
+      },
+      {
+        "type": "VN",
+        "val": "inproceedings.booktitle"
+      },
+      {
+        "type": "VN",
+        "val": "authorship.author"
+      },
+      {
+        "type": "VN",
+        "val": "article.journal"
+      },
+      {
+        "type": "VN",
+        "val": "article.title"
+      }
+    ],
+    "4": [
+      {
+        "type": "UNKNOW",
+        "val": "meaningless"
+      },
+      {
+        "type": "NN",
+        "val": "article"
+      },
+      {
+        "type": "VN",
+        "val": "authorship.author"
+      },
+      {
+        "type": "VN",
+        "val": "inproceedings.booktitle"
+      },
+      {
+        "type": "VN",
+        "val": "article.title"
+      }
+    ],
+    "5": [
+      {
+        "type": "ON",
+        "val": "\u003e"
+      }
+    ],
+    "6": [
+      {
+        "type": "VN",
+        "val": "inproceedings.year"
+      },
+      {
+        "type": "VN",
+        "val": "article.year"
+      },
+      {
+        "type": "UNKNOW",
+        "val": "meaningless"
+      },
+      {
+        "type": "VN",
+        "val": "authorship.id"
+      },
+      {
+        "type": "VN",
+        "val": "inproceedings.id"
+      }
+    ]
+  }
+}
