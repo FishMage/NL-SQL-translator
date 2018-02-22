@@ -16,7 +16,14 @@ var treeOptionsWord = [];
 var treeOptionsid = [];
 
 // document.getElementById("getsql").style.visibility = 'visible';
-
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
 function clearTextBox() {
     showProgress();
     document.getElementById("textBox").value = "";
@@ -91,12 +98,12 @@ function generate(){
             alert(errMsg);
         }
     });
-    // hideProgress();
+    hideProgress();
 }
 
 
 function visualizeTree() {
-    
+
 }
 
 function showParseTreeJSON(input) {
